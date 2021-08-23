@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:350px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -11,7 +11,7 @@ export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
-place-items: center;
+// place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
@@ -95,6 +95,7 @@ padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
+width: 169px;
 &:hover{
   background: #801414;
 
