@@ -85,7 +85,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
 `;
 
 export const ExternalLinks = styled.a`
@@ -96,6 +96,7 @@ background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
 width: 169px;
+cursor: pointer;
 &:hover{
   background: #801414;
 

@@ -18,6 +18,7 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
+            <Hr />
             <div>
               <TitleContent>Technologies Used</TitleContent>
               <TagList>
