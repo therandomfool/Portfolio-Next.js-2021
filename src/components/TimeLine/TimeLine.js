@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Michael is a highly skilled developer with a firm understanding of Object Oriented and Functional Programming design patterns. He is a graduate of both Skill Distillery and FastTrack Java/JavaScript programs and has created full stack RESTful Web Services for personal and educational projects using MySQL, PostgreSQL, Hibernate, Spring, P5.JS, Node.js, jQuery, HTML, and CSS. Michael has also created and maintained applications using Eclipse, and Visual Studio Code with Gradle, Maven and npm for development and project organization. His prior experiences include extensive restaurant / hospitality management and consultation, which imparts him with a continuing passion for teamwork and accomplishing goals through effective collaboration.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
