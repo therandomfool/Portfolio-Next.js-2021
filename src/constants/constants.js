@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React ', ' ChatEngine ', ' Firebase '],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Game Machine',
+    description: "Desktop only connection to JavaScript games",
+    image: '/images/gamemachine.gif',
+    tags: ['JavaScript', 'CSS', 'JQuery'],
+    source: 'https://amazing-snyder-723a73.netlify.app/',
+    visit: 'https://github.com/therandomfool/Game-Machine',
     id: 3,
   },
 ];
