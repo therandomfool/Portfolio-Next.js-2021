@@ -46,7 +46,15 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Michael is a highly skilled developer with a firm understanding of Object Oriented and Functional Programming design patterns. He is a graduate of both Skill Distillery and FastTrack Java/JavaScript programs and has created full stack RESTful Web Services for personal and educational projects using MySQL, PostgreSQL, Hibernate, Spring, P5.JS, Node.js, jQuery, HTML, and CSS. Michael has also created and maintained applications using Eclipse, and Visual Studio Code with Gradle, Maven and npm for development and project organization. His prior experiences include extensive restaurant / hospitality management and consultation, which imparts him with a continuing passion for teamwork and accomplishing goals through effective collaboration.
+      Growing up in the Seattle area, I was fortunate that it immersed me in the burgeoning technology wave that has propelled our culture forward. Unlike most of my peers who ended up working at Microsoft, Starbucks or Amazon, my familial love of food led me into the world of Restaurants and Hospitality. < br/>< br/>
+
+      But it was really when I made station check lists and cheat sheets to survive my first line cook position that I really saw how a computer would unlock the world for me. I could now create tools that enabled organization, quickness, and accuracy. The systems I used became more refined and as I progressed to running my own kitchens, they became “the system”.< br/>< br/>
+
+      As my culinary career grew, so did my growing interest in learning more about how I could use computers and software to leverage positive results. The passions for people, food and technology propelled me to a point where I opened 29 new restaurants, became the training store for new managers and chefs entering a new company culture, and often brought in as a consultant to tackle some of the toughest issues that face restaurants. < br/>< br/>
+
+      Many of the peers I encountered had formal training at prestigious schools. Never letting that stop or intimidate me, I was a self taught successful Chef, and now using the same drive, I am a self motivated Developer.< br/>< br/>
+
+      It’s my belief that the successful software development career that I am currently building, will demand the same tenacity and drive that leads to success. The only missing ingredient in this recipe for success is you, the person who will add a proven achiever to their team.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
