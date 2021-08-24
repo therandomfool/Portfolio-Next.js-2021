@@ -1,5 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FiDatabase } from "react-icons/fi";
+import { GiServerRack, GiAbstract014 } from "react-icons/gi";
+import { BsDisplayFill } from "react-icons/bs";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -14,13 +16,14 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <BsDisplayFill size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             JavaScript <br />
             CSS <br />
+            HTML <br />
             Bootstrap4 <br />
             React <br />
             Angular <br />
@@ -31,20 +34,20 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <GiServerRack size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Java <br />
             Spring Boot <br />
-            Node.js
+            Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <FiDatabase size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Data Bases</ListTitle>
@@ -56,12 +59,14 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <GiAbstract014 size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Technologies</ListTitle>
           <ListParagraph>
             GitHub <br />
+            Asana <br />
+            Jira <br />
             Visual Studio Code <br />
             Google Search <br />
             Postman <br />

@@ -31,8 +31,8 @@ export const List = styled.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  margin: 3rem 0;
+  gap: 30px;
+  margin: 0 0 3rem 0;
   
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
@@ -53,6 +53,7 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 13px 0 0 0;
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
@@ -98,7 +99,6 @@ export const ListParagraph = styled.p`
 `
 
 export const ListItem = styled.li`
-  max-width: 320px;
   display: flex;
   flex-direction: column;
 
