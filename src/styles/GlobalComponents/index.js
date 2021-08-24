@@ -28,13 +28,13 @@ export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -77,7 +77,7 @@ export const SectionText = styled.p`
 `
 
 export const SectionDivider = styled.div`
-  margin: 0 auto;
+  margin: 35px  auto;
   width: 800px;
   height: 6px;
   border-radius: 10px;
@@ -89,12 +89,12 @@ export const SectionDivider = styled.div`
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
+    width: 480px;
     height: 4px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
+    width: 320px;
     height: 2px;
   }
 `
