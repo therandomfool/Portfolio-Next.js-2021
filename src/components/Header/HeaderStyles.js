@@ -4,15 +4,15 @@ import styled from 'styled-components';
 export const Container = styled.div`
   
   font-size: 30px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
+  display: flex;
+  // grid-template-columns: repeat(5, 1fr);
+  // grid-template-rows: 1fr;
+  // grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
+    display: flex;
     // grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 40px);
     grid-column-gap: 0.5rem;
@@ -20,11 +20,11 @@ export const Container = styled.div`
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  // grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
-  margin-right: 150px;
+  margin: auto auto;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 10px;
     // grid-area: 1 / 1 / 2 / 3;
@@ -32,9 +32,10 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  // grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  justify-content: space-around;
+  margin: auto auto;
+  float: right;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
     // align-items: center;
@@ -42,7 +43,8 @@ export const Div2 = styled.div`
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
+  // grid-area: 1 / 5 / 2 / 6;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
