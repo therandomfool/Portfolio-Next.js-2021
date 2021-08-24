@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { GiCardJoker }  from "react-icons/gi";
+import { GiCardJoker } from "react-icons/gi";
 import { MdPictureAsPdf } from "react-icons/md";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
+  <>
   <Container>
     <Div1>
       <Link href="/">
@@ -33,6 +34,8 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
+    </Container>
+    
       <Div3>
         <SocialIcons href="https://github.com/therandomfool" target="_blank" title="GITHUB">
           <AiFillGithub size="4rem" />
@@ -47,7 +50,7 @@ const Header = () =>  (
           <HiOutlineMailOpen size="4rem"/>
         </SocialIcons>
       </Div3>
-    </Container>
+    </>
 );
 
 export default Header;

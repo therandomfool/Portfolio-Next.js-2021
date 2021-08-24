@@ -13,8 +13,8 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    // grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 40px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
@@ -26,7 +26,9 @@ export const Div1 = styled.div`
   align-content: center;
   margin-right: 150px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    font-size: 10px;
+    // grid-area: 1 / 1 / 2 / 3;
+    margin: auto auto;
   }
 `;
 export const Div2 = styled.div`
@@ -35,6 +37,8 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    // align-items: center;
+    margin: auto auto;
   }
 `;
 export const Div3 = styled.div`
@@ -43,8 +47,9 @@ export const Div3 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    align-items: right;
+    // grid-area: 1 / 4 / 2 / 6;
+    margin: auto auto;
   }
 `;
 
@@ -61,6 +66,9 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0 5px;
+    font-size: .9rem;
+    line-height: 12px;
     padding: 0.5rem;
   }
 `;
@@ -118,11 +126,19 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
     
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    transform: scale(.614);
+    padding: 1px;
+    
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    // padding: 0;
   }
 `
