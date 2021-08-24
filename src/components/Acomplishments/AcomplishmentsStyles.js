@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 20% 20% 20% 20%;
   gap: 24px;
   margin: 24px 0 40px;
   
@@ -11,14 +11,15 @@ export const Boxes = styled.div`
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
     margin: 20px 0 32px;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    display: flex;
+    flex-direction: column;
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    max-width: 500px;
+   
+    display: flex;
+    flex-direction: column;
+    // max-width: 500px;
     margin: 24px auto;
   }
 `
@@ -139,7 +140,7 @@ export const IconContainer = styled.div`
 export const Img = styled.img`
   cursor: pointer;
   width:100%;
-  height:100%;
+  height:80%;
   object-fit: scale-down;
   overflow: hidden;
   &:hover{
@@ -148,5 +149,11 @@ export const Img = styled.img`
     // border: 2px solid black;
     // border-radius: 15%;
   }
+`
+
+export const Link = styled.a`
+  cursor: pointer;
+  text-align: center;
+
 `
 
