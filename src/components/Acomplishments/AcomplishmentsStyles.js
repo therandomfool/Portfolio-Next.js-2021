@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Boxes = styled.div`
   // width: 100%;
+  justify-content: center;
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   gap: 24px;
@@ -29,7 +30,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 244px;
+  height: 200px;
   padding: 24px;
   
   @media ${props => props.theme.breakpoints.lg} {
@@ -54,12 +55,11 @@ export const Box = styled.div`
 
 export const BoxNum = styled.a`
   font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
-  margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 28px;
