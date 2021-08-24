@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     title: 'Mandlebrot Set Grayscale',
-    description: "Plotting the points of the Mandlebrot Set",
+    description: "Plotting the points of the Mandlebrot Set to display with P5.JS",
       image: '/images/mandlebrotX.png',
       tags: ['JavaScript', 'CSS', 'P5.JS',],
     source: 'https://github.com/therandomfool/Mandlebrot-Set-With-P5.JS-Grayscale',

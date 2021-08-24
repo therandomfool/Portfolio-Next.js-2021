@@ -5,10 +5,18 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText, Img } from './AcomplishmentsStyles';
 
 const data = [
+  { number: 20, dest: 'Open Source Projects', image:'/images/javascript-linkedin-badge.png'},
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', },
   { number: 20, text: 'Open Source Projects', image:'/images/tree.gif'},
   { number: 1000, text: 'Students', },
   { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 5000, text: 'Github Stars', },
+  { number: 20, text: 'Open Source Projects', image:'/images/tree.gif'},
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', },
 ];
 
 const Acomplishments = () => (
@@ -17,9 +25,8 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <Img src={card.image} />
-          {/* <BoxNum>{`${card.number}+`}</BoxNum>
-          <BoxText>{card.text}</BoxText> */}
+          <Img src={card.image} href={card.dest}/>
+          
         </Box>
       ))}
     </Boxes>

@@ -50,7 +50,7 @@ const Technologies = () =>  (
           <ListTitle>Data Bases</ListTitle>
           <ListParagraph>
             MySQL <br />
-            Postgress
+            PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -59,11 +59,14 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Technology</ListTitle>
+          <ListTitle>Technologies</ListTitle>
           <ListParagraph>
             GitHub <br />
             Visual Studio Code <br />
             Google Search <br />
+            Postman <br />
+            PG Admin <br />
+            MySQL Workbench <br />
             Stack Overflow
           </ListParagraph>
         </ListContainer>
