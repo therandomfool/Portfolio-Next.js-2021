@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Boxes = styled.div`
-  width: 100%;
+  // width: 100%;
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   gap: 24px;
@@ -18,8 +18,10 @@ export const Boxes = styled.div`
   @media ${props => props.theme.breakpoints.sm}{
    
     display: flex;
-    flex-direction: column;
-    // max-width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // max-width: 200px;
     margin: 24px auto;
   }
 `
