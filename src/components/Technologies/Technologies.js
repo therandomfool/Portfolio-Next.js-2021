@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiDatabase } from "react-icons/fi";
-import { GiServerRack, GiAbstract014 } from "react-icons/gi";
+import { GiServerRack, GiAbstract025 } from "react-icons/gi";
 import { BsDisplayFill } from "react-icons/bs";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -50,7 +50,7 @@ const Technologies = () =>  (
           <FiDatabase size="4rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Data Bases</ListTitle>
+          <ListTitle>Databases</ListTitle>
           <ListParagraph>
             MySQL <br />
             PostgreSQL
@@ -59,7 +59,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <GiAbstract014 size="3rem" />
+          <GiAbstract025 size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Technologies</ListTitle>
