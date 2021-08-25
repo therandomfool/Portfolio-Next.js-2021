@@ -2,12 +2,11 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:auto;
-  object-fit: cover;
+  height:20rem;
+  object-fit: fill;
   overflow: hidden;
   @media ${(props) => props.theme.breakpoints.xs} {
     object-fit: fill;
-    max-height: 150px!important;
     width: 80%;
   }
 `
@@ -22,7 +21,7 @@ row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 0;
   padding-bottom: 0;
 }
 
@@ -44,7 +43,7 @@ export const TitleContent = styled.div`
   padding-top: 20px;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 18px;
-    padding-top: 5px;
+    padding-top: 0;
   }
 `;
 
@@ -84,7 +83,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding:0;
 }
 `;
 
@@ -113,7 +112,7 @@ cursor: pointer;
   background: #801414;
 }
 @media ${(props) => props.theme.breakpoints.sm} {
-  padding: .5rem;
+  padding: .25rem;
 }
 `;
 
@@ -123,6 +122,7 @@ justify-content: space-around;
 padding: 2rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   font-size: 16px;
+  padding: 1rem;
 }
 `
 export const Tag = styled.li`
