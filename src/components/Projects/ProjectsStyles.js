@@ -3,11 +3,13 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:20rem;
+  margin-top: 40px;
   object-fit: fill;
   overflow: hidden;
   @media ${(props) => props.theme.breakpoints.xs} {
     object-fit: fill;
     width: 80%;
+    margin-top: 30px;
   }
 `
 
