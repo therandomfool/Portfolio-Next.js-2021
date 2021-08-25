@@ -66,8 +66,9 @@ export const BoxNum = styled.a`
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
 }
 `
 
