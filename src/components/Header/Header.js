@@ -12,8 +12,8 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <GiCardJoker size="8rem" title="PORTFOLIO SITE"/> <span>Michael Degginger</span>
+        <a style={{ display: 'flex', alignItems: 'center', color:"ghostwhite" }}>
+          <GiCardJoker size="6rem" title="PORTFOLIO SITE"/> <span>Michael Degginger</span>
         </a>
       </Link>
     </Div1>

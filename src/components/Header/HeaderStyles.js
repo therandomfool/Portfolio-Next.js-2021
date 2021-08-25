@@ -26,7 +26,7 @@ export const Div1 = styled.div`
   align-content: center;
   margin: auto auto;
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 13px;
     // grid-area: 1 / 1 / 2 / 3;
     margin: auto auto;
   }
@@ -68,10 +68,10 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0 5px;
-    font-size: .9rem;
-    line-height: 12px;
-    padding: 0.5rem;
+    padding: 0 0.4rem;
+    font-size: .88rem;
+    // line-height: 19px;
+    // padding: 0.5rem;
   }
 `;
 
