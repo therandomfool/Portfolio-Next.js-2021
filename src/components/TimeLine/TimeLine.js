@@ -52,8 +52,6 @@ const Timeline = () => {
 
       As my culinary career grew, so did my growing interest in learning more about how I could use computers and software to leverage positive results. The passions for people, food and technology propelled me to a point where I opened 29 new restaurants, became the training store for new managers and chefs entering a new company culture, and often brought in as a consultant to tackle some of the toughest issues that face restaurants. < br/>< br/>
 
-      Many of the peers I encountered had formal training at prestigious schools. Never letting that stop or intimidate me, I was a self taught successful Chef, and now using the same drive, I am a self motivated Developer.< br/>< br/>
-
       It’s my belief that the successful software development career that I am currently building, will demand the same tenacity and drive that leads to success. The only missing ingredient in this recipe for success is you, the person who will add a proven achiever to their team.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
