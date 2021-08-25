@@ -110,7 +110,7 @@ export const ListItem = styled.li`
   margin-bottom: 14px;
   max-width: 320px;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
   justify-content: center;
 }
 `
