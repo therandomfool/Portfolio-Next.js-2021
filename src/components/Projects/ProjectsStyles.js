@@ -62,7 +62,8 @@ export const Hr = styled.hr`
   width: 90%;
   height: 3px;
   margin: 20px auto;
-  border: 0;
+  border: 1px solid black;
+  border-radius: 50%;
   background: #d0bb57;
 `;
 
