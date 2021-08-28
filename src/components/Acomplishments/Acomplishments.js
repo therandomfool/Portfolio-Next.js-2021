@@ -23,7 +23,7 @@ const data = [
 
 const Acomplishments = () => (
   <Section id="achieve">
-    <SectionTitle>Personal Achievements</SectionTitle>
+    <SectionTitle>Skill Assesments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
 

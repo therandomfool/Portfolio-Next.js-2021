@@ -82,7 +82,7 @@ export const SectionDivider = styled.div`
   height: 6.9px;
   border-radius: 30%;
   background-color: #fff;
-  border: 1px solid rgba(255, 14, 3, 0.99);
+  border: 1px solid rgba(25, 14, 3, 0.99);
   
 
   @media ${(props) => props.theme.breakpoints.md} {

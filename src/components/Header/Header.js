@@ -35,7 +35,7 @@ const Header = () => (
       </li>        
       <li>
         <Link href="#achieve">
-          <NavLink>Achieve</NavLink>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>        
     </Div2>
