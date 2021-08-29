@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "Personal Portfolio",
+    description: "Next.js showcase of projects and achievements",
+    image: '/images/nextport.gif',
+    tags: ['React', ['Next.js'], 'CSS',],
+    source: 'https://github.com/therandomfool/Portfolio-Next.js-2021',
+    visit: 'https://mdeggingerportfolio.netlify.app/',
+    id: 5,
+  },
+  {
+    title: "Tech HTML Email",
+    description: "HTML Email coded for 80+ mail clients. Technology Template",
+    image: '/images/techtemplate.gif',
+    tags: ['HTML', 'CSS',],
+    source: 'https://github.com/therandomfool/EventTrackerProject',
+    visit: 'https://vibrant-williams-d535d8.netlify.app/',
+    id: 3,
+  },
+  {
     title: "Brushr Homebrewer",
     description: "Home brew community repository of beer recipes",
     image: '/images/Brushr.png',
@@ -27,15 +45,6 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Tech HTML Email",
-    description: "HTML Email coded for 80+ mail clients. Technology Template",
-    image: '/images/techtemplate.gif',
-    tags: ['HTML', 'CSS',],
-    source: 'https://github.com/therandomfool/EventTrackerProject',
-    visit: 'https://vibrant-williams-d535d8.netlify.app/',
-    id: 3,
-  },
-  {
     title: "Style and Apparel HTML EMAIL",
     description: "HTML Email coded for 80+ mail clients. Style & Apparel Template",
     image: '/images/style.gif',
@@ -44,15 +53,7 @@ export const projects = [
     visit: 'https://gallant-bohr-ebd0fa.netlify.app/',
     id: 4,
   },
-  // {
-  //   title: "HTML EMAIL placeholder",
-  //   description: "Restaurant reservation system with database",
-  //   image: '/images/reservationT.png',
-  //   tags: ['HTML', 'CSS',],
-  //   source: 'https://github.com/therandomfool/EventTrackerProject',
-  //   visit: 'https://github.com/therandomfool/EventTrackerProject',
-  //   id: 5,
-  // },
+ 
   // {
   //   title: "HTML EMAIL placeholder",
   //   description: "Restaurant reservation system with database",
